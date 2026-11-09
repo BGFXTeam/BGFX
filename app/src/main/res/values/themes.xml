@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compose draws everything; the window theme only sets the first frame. -->
+    <style name="Theme.ZevWidgets" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/zev_background</item>
+        <item name="android:statusBarColor">@color/zev_background</item>
+        <item name="android:navigationBarColor">@color/zev_background</item>
+        <item name="android:colorBackground">@color/zev_background</item>
+    </style>
+</resources>
